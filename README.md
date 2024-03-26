@@ -9,7 +9,7 @@ For this lab, we are going to
 - Configure an Amazon S3 bucket for website hosting.
 - Secure your website with a free SSL certificate from AWS Certificate Manager.
 - Use Amazon CloudFront to distribute your content worldwide efficiently.
-- (Optional) Managing a custom domain with Route 53 and linking it to your CloudFront distribution.
+- (Optional) Manage a custom domain with Route 53 and link it to your CloudFront distribution.
 
 
 ## Lab Diagram
