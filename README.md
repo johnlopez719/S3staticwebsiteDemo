@@ -1,3 +1,7 @@
+### Diagram
+[Static-Website-diagram.pdf](https://github.com/johnlopez719/S3staticwebsiteDemo/files/14764559/Static-Website-diagram.pdf)
+
+
 **1. Prepare Your Static Website Files**
 
 - Ensure you have a static website (HTML, CSS, JavaScript, images) ready for deployment. If you don't have one, create a simple HTML file as an example.
