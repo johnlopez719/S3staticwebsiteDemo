@@ -1,9 +1,17 @@
-### Lab Diagram
+## Table Of Content
+ - [Overview](#Overview)
+ - [Lab Diagram](#LabDiagram)
+ - [Lab Instructions](#LabInstructions)
+ - [Resources](#Resources)
+
+## Overview
+
+## Lab Diagram
 ![Static Website](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/23c723cd-6e3c-4f07-b5ea-a5d9c3dcbae6)
 
 
 
-### Instructions
+## Lab Instructions
 **1. Prepare Your Static Website Files**
 
 - Ensure you have a static website (HTML, CSS, JavaScript, images) ready for deployment. If you don't have one, create a simple HTML file as an example.
@@ -59,3 +67,5 @@
 - Once your CloudFront distribution is deployed, access your website using the CloudFront distribution domain name (or your custom domain if you've set it up).
 
 Congratulations! You have deployed a static website on AWS, utilizing S3 for storage, CloudFront for global content delivery, secured with an SSL certificate from AWS Certificate Manager, and optionally using a custom domain managed by Route 53. 🥳
+
+## Resources
