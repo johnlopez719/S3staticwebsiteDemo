@@ -1,7 +1,7 @@
 ## Table Of Content
  - [Overview](#Overview)
- - [Lab Diagram](#LabDiagram)
- - [Lab Instructions](#LabInstructions)
+ - [Lab Diagram](#Lab_Diagram)
+ - [Lab Instructions](#Lab_Instructions)
  - [Resources](#Resources)
 
 ## Overview
