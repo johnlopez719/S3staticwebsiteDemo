@@ -75,3 +75,4 @@ For this lab, we are going to
 Congratulations! You have deployed a static website on AWS, utilizing S3 for storage, CloudFront for global content delivery, secured with an SSL certificate from AWS Certificate Manager, and optionally using a custom domain managed by Route 53. 🥳
 
 ## Resources
+Inside the [StaticWebsite](https://github.com/johnlopez719/S3staticwebsiteDemo/tree/main/StaticWebsite) folder, you will find an index.html, css, and javascript files to create a basic website.
