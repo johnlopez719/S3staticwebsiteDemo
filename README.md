@@ -20,7 +20,7 @@ For this lab, we are going to
 ## Lab Instructions
 **1. Prepare Your Static Website Files**
 
-- Ensure you have a static website (HTML, CSS, JavaScript, images) ready for deployment. If you don't have one, create a simple HTML file as an example.
+- Ensure you have a static website (HTML, CSS, JavaScript) ready for deployment. If you don't have one, you can navigate to [StaticWebsite](https://github.com/johnlopez719/S3staticwebsiteDemo/tree/main/StaticWebsite) folder which contains the necessary files.
 
 **2. Create an Amazon S3 Bucket for Website Hosting**
 
