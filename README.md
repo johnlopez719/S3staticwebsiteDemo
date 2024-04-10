@@ -13,7 +13,7 @@ For this lab, we are going to
 
 
 ## Lab Diagram
-![Static Website](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/23c723cd-6e3c-4f07-b5ea-a5d9c3dcbae6)
+![Slide7](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/de9818e1-b5fb-4944-afa1-17b0e8a79697)
 
 
 
