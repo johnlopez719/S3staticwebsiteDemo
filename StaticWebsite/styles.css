@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #212529;
+  background-color: #C588FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  background-color: linear-gradient(45deg, #AC71FF,#FE8A4F);  
+  text-align: center;
+  padding: 25px 0;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+}
+nav ul li a:hover {
+  background-color: linear-gradient(45deg, #AC71FF,#FE8A4F);
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+#home {
+  background: linear-gradient(45deg, #AC71FF,#FE8A4F); /* Gradient Background */
+  color: white;
+  min-height: 300px;
+}
+#about, #services, #contact {
+  background-color: linear-gradient(45deg, #AC71FF,#FE8A4F);
+  color: #212529; /* Text Color */
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+form input, form textarea {
+  margin: 10px 0; 
+  padding: 10px;
+}
+form button {
+  padding: 10px;
+  background-color: #FFBD4F; /* Accent Color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:linear-gradient(45deg, #AC71FF,#FE8A4F);
+  color: white;
+}
