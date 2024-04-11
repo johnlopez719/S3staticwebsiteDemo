@@ -72,23 +72,40 @@ For this lab, we are going to
 
 - **Step 7.1**: Open the AWS Certificate Manager console.
 - **Step 7.2**: Click "Request a certificate", select "Public certificate", and follow the wizard to request a certificate for your domain name. Validate your domain via email or DNS.
+    ![Screenshot 2024-04-11 at 5 21 08 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/482edd98-5edf-49f5-ad06-3d94e314b0bd)
+  ![Screenshot 2024-04-11 at 5 21 27 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/30fdcfc5-17f3-4e95-b584-fa71a4ba641c)
+
+
 - **Step 7.3**: Once you request your certification you will be asked to validate your domain. To validate your domain click on "Create Record" and follow the wizard. Once you validate your domain your status will change from "Pending" to "Validated" (1-2mins).
-  ![Screenshot 2024-04-11 at 5 21 08 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/482edd98-5edf-49f5-ad06-3d94e314b0bd)
-![Screenshot 2024-04-11 at 5 21 27 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/30fdcfc5-17f3-4e95-b584-fa71a4ba641c)
+![Screenshot 2024-04-11 at 5 22 07 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/85df4766-be4a-4ee8-bf2c-128fc8360996)
+![Screenshot 2024-04-11 at 5 22 56 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/3c4edaf8-0d67-4ea4-9b44-4a71d1eec968)
+
 
 
 **8. Create a CloudFront Distribution**
 
 - **Step 8.1**: Open the CloudFront console and click "Create distribution".
-- **Step 8.2**: Select "Web" distribution and specify your S3 bucket's static website endpoint as the origin.
-- **Step 8.3**: Choose the SSL certificate you created with AWS Certificate Manager.
-- **Step 8.4**: Set the CNAMEs (if you have a domain) and choose the default root object as index.html.
-- **Step 8.5**: Create the distribution. It may take some time to deploy.
+- **Step 8.2**: Under "Origin domain" specify your S3 bucket's static website endpoint as the origin.
+  ![Screenshot 2024-04-11 at 5 23 24 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/7f569f13-550f-4658-a88b-9eb3a411c98e)
+![Screenshot 2024-04-11 at 5 23 34 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/0f2bf42a-cbec-42b0-af6a-a20d2baed854)
+
+- **Step 8.3**: Set Viewer protocol policy to Redirect HTTP to HTTPS.
+  ![Screenshot 2024-04-11 at 5 23 56 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/43f97c91-d190-4afa-89f3-919afce0fda4)
+- **Step 8.4**: Choose the SSL certificate you created with AWS Certificate Manager.
+  ![Screenshot 2024-04-11 at 5 24 42 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/0ae0eb22-a0f0-4cce-941a-223098e87b4c)
+- **Step 8.5**: Set the CNAME to your domain name
+![Screenshot 2024-04-11 at 5 24 21 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/eed622fe-999a-4bb4-a464-b7a817b0865d)
+
+- **Step 8.6**: Create the distribution. It may take some time to deploy (5-15min). Status should say enable and "last modified" should have a date.
+![Screenshot 2024-04-11 at 5 28 46 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/126064a1-3ff8-4962-b3e4-7d2933614ba8)
+
 
 **9. Update Route 53 to Point to Your CloudFront Distribution (If Using a Custom Domain)**
 
 - Navigate to the Route 53 console.
-- Create or edit a record set to point your domain to the CloudFront distribution by choosing "Alias" and selecting the CloudFront distribution you created.
+- edit your A record set to point your domain to the CloudFront distribution by choosing "Alias" and selecting the CloudFront distribution you created.
+  ![Screenshot 2024-04-11 at 5 30 05 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/e70bb617-2deb-4956-8311-8e36e438ebe7)
+
 
 **10. Test Your Website**
 
