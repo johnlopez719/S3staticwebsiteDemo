@@ -47,7 +47,22 @@ For this lab, we are going to
 
 - **Step 5.1**: Navigate to the "Permissions" tab of your bucket.
 - **Step 5.2**: Edit the bucket policy to grant public read access to the website files. Use the AWS policy generator if needed, allowing GetObject permission for everyone.
-
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource":"arn:aws:s3:::<bucket-name>/*"
+            
+            
+        }
+    ]
+}
+```
 **6. Register a Domain Name with Route 53 (Optional)**
 
 - If you don't have a domain, you can register one directly through AWS Route 53.
