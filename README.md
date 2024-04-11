@@ -28,12 +28,15 @@ For this lab, we are going to
 - **Step 2.2**: Click "Create bucket". Provide a unique name for your bucket and select the AWS Region you want to host your site in.
 - **Step 2.3**: Uncheck "Block all public access" settings and acknowledge that the bucket will be publicly accessible.
 - **Step 2.4**: Click "Create bucket".
+![Screenshot 2024-04-10 at 1 57 03 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/9111f758-1d6b-48e2-a7e5-9f469306c917)
+
 
 **3. Enable Static Website Hosting**
 
 - **Step 3.1**: Select your newly created bucket and navigate to the "Properties" tab.
 - **Step 3.2**: Click on "Static website hosting" and select "Use this bucket to host a website". Enter the name of your index document (usually index.html).
 - **Step 3.3**: Save the changes.
+![Screenshot 2024-04-10 at 1 58 11 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/51fb476f-b9d9-472d-b2a6-7461336abcd5)
 
 **4. Upload Your Website Files**
 
