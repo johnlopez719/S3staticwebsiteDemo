@@ -72,6 +72,10 @@ For this lab, we are going to
 
 - **Step 7.1**: Open the AWS Certificate Manager console.
 - **Step 7.2**: Click "Request a certificate", select "Public certificate", and follow the wizard to request a certificate for your domain name. Validate your domain via email or DNS.
+- **Step 7.3**: Once you request your certification you will be asked to validate your domain. To validate your domain click on "Create Record" and follow the wizard. Once you validate your domain your status will change from "Pending" to "Validated" (1-2mins).
+  ![Screenshot 2024-04-11 at 5 21 08 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/482edd98-5edf-49f5-ad06-3d94e314b0bd)
+![Screenshot 2024-04-11 at 5 21 27 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/30fdcfc5-17f3-4e95-b584-fa71a4ba641c)
+
 
 **8. Create a CloudFront Distribution**
 
