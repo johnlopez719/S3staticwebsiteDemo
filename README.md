@@ -104,6 +104,7 @@ For this lab, we are going to
 
 - Navigate to the Route 53 console.
 - edit your A record set to point your domain to the CloudFront distribution by choosing "Alias" and selecting the CloudFront distribution you created.
+  
   ![Screenshot 2024-04-11 at 5 30 05 PM](https://github.com/johnlopez719/S3staticwebsiteDemo/assets/30753364/e70bb617-2deb-4956-8311-8e36e438ebe7)
 
 
